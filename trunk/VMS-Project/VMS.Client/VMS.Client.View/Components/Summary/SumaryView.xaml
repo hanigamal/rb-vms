@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="VMS.Client.View.Component.Summary.SumaryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:ribbon="clr-namespace:Microsoft.Windows.Controls.Ribbon;assembly=RibbonControlsLibrary">
+	<UserControl.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary Source="/VMS.Client.View;component/Dictionary/DictionaryResource.xaml"/>
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</UserControl.Resources>
+    <Border>
+        <Grid x:Name="MainGrid"
+              Background="{x:Null}" />
+    </Border>
+</UserControl>

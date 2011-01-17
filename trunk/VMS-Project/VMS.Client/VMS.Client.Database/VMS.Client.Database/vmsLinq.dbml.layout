@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.375" name="vmsLinq">
+  <DataContextMoniker Name="/vmsLinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3885c7d7-6754-4177-8581-ea1b4fec41f8" absoluteBounds="0.75, 0.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/vmsLinqDataContext/Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="beb4eff4-5135-4fc4-b0ed-33c3a35e8106" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4621c9ca-d381-4dc3-a2f5-355db22f8524" absoluteBounds="3.75, 0.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/vmsLinqDataContext/VehicleTracking" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0254558f-d8c4-4ff2-9f0e-eb1a58944635" absoluteBounds="3.765, 1.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dc3bb734-e403-4982-8e82-a5826e28e49c" absoluteBounds="0.75, 4.75, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/vmsLinqDataContext/Driver" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7b2edeb6-9c0b-4175-b470-d8208dd021aa" absoluteBounds="0.765, 5.21, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="06ebda37-2ece-43c2-92bf-72273d2d919e" absoluteBounds="3.75, 4.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/vmsLinqDataContext/Fleet" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e80dd44-73ad-48d1-8a48-e8a42a36896d" absoluteBounds="3.765, 5.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f5000e01-236f-465f-8cf5-7078d6747762" absoluteBounds="6.75, 0.75, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/vmsLinqDataContext/GroupProduct" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6efbe5e7-8e4d-44b9-b8d0-5a7030d28cef" absoluteBounds="6.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4f57bc7c-8d34-44b2-9838-8d5307dda231" absoluteBounds="6.75, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/vmsLinqDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="10660878-92c5-49bc-9e36-be03ebaf82d2" absoluteBounds="6.765, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c1660e70-109a-411d-941c-f7278b67a88e" absoluteBounds="6.75, 6.75, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/vmsLinqDataContext/Vehicle" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1d036649-ba77-41fb-80c8-8e3806f07b32" absoluteBounds="6.765, 7.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
