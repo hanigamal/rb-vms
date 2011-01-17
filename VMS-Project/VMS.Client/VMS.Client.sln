@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VMS.Client.TrackingSystem", "VMS.Client.TrackingSystem", "{7A6393C5-EDAE-4B32-821D-73C17BA7F607}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VMS.Client.Database", "VMS.Client.Database", "{1CEF6677-0261-4516-9055-C9DC9F00BCF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VMS.Client.DatabaseManagement", "VMS.Client.DatabaseManagement", "{22101AF3-6AC0-4C49-93D0-EEB9B018E0FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMS.Client.TrackingSystem", "VMS.Client.TrackingSystem\VMS.Client.TrackingSystem.csproj", "{297FFF30-856E-4062-916D-E942EA94386D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMS.Client.Database", "VMS.Client.Database\VMS.Client.Database\VMS.Client.Database.csproj", "{0FAEA172-C158-4839-8C49-DCD3B891A3CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMS.Client.Facade", "VMS.Client.Facade\VMS.Client.Facade.csproj", "{D8A046A3-C0DE-4521-BA8C-42943B1B3A7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMS.Client.Controller", "VMS.Client.Controller\VMS.Client.Controller.csproj", "{BBBD6BDC-0AD4-4015-B81E-6ED491D1C4C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMS.Client.View", "VMS.Client.View\VMS.Client.View.csproj", "{A0B83DC7-40F0-4021-887D-B67EEC8BA3FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMS.Client.Model", "VMS.Client.Model\VMS.Client.Model.csproj", "{2AC7D63F-033D-4537-BF99-9C020FB9A81F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{297FFF30-856E-4062-916D-E942EA94386D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297FFF30-856E-4062-916D-E942EA94386D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297FFF30-856E-4062-916D-E942EA94386D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297FFF30-856E-4062-916D-E942EA94386D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FAEA172-C158-4839-8C49-DCD3B891A3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FAEA172-C158-4839-8C49-DCD3B891A3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FAEA172-C158-4839-8C49-DCD3B891A3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FAEA172-C158-4839-8C49-DCD3B891A3CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A046A3-C0DE-4521-BA8C-42943B1B3A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A046A3-C0DE-4521-BA8C-42943B1B3A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A046A3-C0DE-4521-BA8C-42943B1B3A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A046A3-C0DE-4521-BA8C-42943B1B3A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBBD6BDC-0AD4-4015-B81E-6ED491D1C4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBBD6BDC-0AD4-4015-B81E-6ED491D1C4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBBD6BDC-0AD4-4015-B81E-6ED491D1C4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBBD6BDC-0AD4-4015-B81E-6ED491D1C4C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B83DC7-40F0-4021-887D-B67EEC8BA3FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B83DC7-40F0-4021-887D-B67EEC8BA3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B83DC7-40F0-4021-887D-B67EEC8BA3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B83DC7-40F0-4021-887D-B67EEC8BA3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC7D63F-033D-4537-BF99-9C020FB9A81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC7D63F-033D-4537-BF99-9C020FB9A81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC7D63F-033D-4537-BF99-9C020FB9A81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC7D63F-033D-4537-BF99-9C020FB9A81F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{297FFF30-856E-4062-916D-E942EA94386D} = {7A6393C5-EDAE-4B32-821D-73C17BA7F607}
+		{0FAEA172-C158-4839-8C49-DCD3B891A3CB} = {1CEF6677-0261-4516-9055-C9DC9F00BCF8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\bin\Debug\VMS.Client.Facade.dll
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\bin\Debug\VMS.Client.Facade.pdb
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\bin\Debug\log4net.dll
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\bin\Debug\PureMVC.DotNET.35.dll
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\bin\Debug\log4net.xml
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\bin\Debug\PureMVC.DotNET.35.xml
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\obj\Debug\ResolveAssemblyReference.cache
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\obj\Debug\VMS.Client.Facade.dll
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\obj\Debug\VMS.Client.Facade.pdb

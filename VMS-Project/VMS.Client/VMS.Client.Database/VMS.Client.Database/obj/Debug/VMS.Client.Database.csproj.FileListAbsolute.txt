@@ -1,0 +1,6 @@
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Database\VMS.Client.Database\bin\Debug\VMS.Client.Database.dll.config
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Database\VMS.Client.Database\bin\Debug\VMS.Client.Database.dll
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Database\VMS.Client.Database\bin\Debug\VMS.Client.Database.pdb
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Database\VMS.Client.Database\obj\Debug\ResolveAssemblyReference.cache
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Database\VMS.Client.Database\obj\Debug\VMS.Client.Database.dll
+E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Database\VMS.Client.Database\obj\Debug\VMS.Client.Database.pdb
