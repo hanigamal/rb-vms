@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Server Service">
+</Property><Property Name="Solution File" Value="D:\Download\GPSServer\GPSServer\Server Service\Server Service.sln">
+</Property><Property Name="Date" Value="Monday, January 17, 2011">
+</Property><Property Name="Time" Value="15:47:57 PM">
+</Property></Properties><Event ErrorLevel="0" Project="Server Service" Source="Server Service.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Server Service" Source="Server Service.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Server Service" Source="Server Service.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

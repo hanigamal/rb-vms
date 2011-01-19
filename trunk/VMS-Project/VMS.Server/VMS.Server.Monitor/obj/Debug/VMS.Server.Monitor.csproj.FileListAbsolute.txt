@@ -1,0 +1,12 @@
+D:\Download\rang\trunk\VMS-Project\VMS.Server\VMS.Server.Monitor\bin\Debug\Vehicle Management System Server.exe.config
+D:\Download\rang\trunk\VMS-Project\VMS.Server\VMS.Server.Monitor\obj\Debug\ResolveAssemblyReference.cache
+D:\Download\rang\trunk\VMS-Project\VMS.Server\VMS.Server.Monitor\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Download\rang\trunk\VMS-Project\VMS.Server\VMS.Server.Monitor\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Download\rang\trunk\VMS-Project\VMS.Server\VMS.Server.Monitor\obj\Debug\VMS.Server.Monitor.Properties.Resources.resources
+D:\Download\rang\trunk\VMS-Project\VMS.Server\VMS.Server.Monitor\bin\Debug\Vehicle Management System Server.exe
+D:\Download\rang\trunk\VMS-Project\VMS.Server\VMS.Server.Monitor\bin\Debug\Vehicle Management System Server.pdb
+D:\Download\rang\trunk\VMS-Project\VMS.Server\VMS.Server.Monitor\bin\Debug\log4net.dll
+D:\Download\rang\trunk\VMS-Project\VMS.Server\VMS.Server.Monitor\bin\Debug\log4net.xml
+D:\Download\rang\trunk\VMS-Project\VMS.Server\VMS.Server.Monitor\obj\Debug\VMS.Server.Monitor.VMSMainForm.resources
+D:\Download\rang\trunk\VMS-Project\VMS.Server\VMS.Server.Monitor\obj\Debug\Vehicle Management System Server.exe
+D:\Download\rang\trunk\VMS-Project\VMS.Server\VMS.Server.Monitor\obj\Debug\Vehicle Management System Server.pdb

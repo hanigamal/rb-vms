@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMS.Server.Monitor", "VMS.Server.Monitor\VMS.Server.Monitor.csproj", "{4D6D7141-CEC7-4299-8E1B-7036050D53BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMS.Server.Service", "VMS.Server.Service\VMS.Server.Service.csproj", "{3BFA339B-8CFA-4AED-84AD-D3627FDC144B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VMS.Server.Setup", "VMS.Server.Setup\VMS.Server.Setup.vdproj", "{C0EA6325-AF46-4551-A880-AC2771747F1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D6D7141-CEC7-4299-8E1B-7036050D53BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6D7141-CEC7-4299-8E1B-7036050D53BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6D7141-CEC7-4299-8E1B-7036050D53BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6D7141-CEC7-4299-8E1B-7036050D53BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BFA339B-8CFA-4AED-84AD-D3627FDC144B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BFA339B-8CFA-4AED-84AD-D3627FDC144B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BFA339B-8CFA-4AED-84AD-D3627FDC144B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BFA339B-8CFA-4AED-84AD-D3627FDC144B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0EA6325-AF46-4551-A880-AC2771747F1B}.Debug|Any CPU.ActiveCfg = Debug
+		{C0EA6325-AF46-4551-A880-AC2771747F1B}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
