@@ -1,0 +1,31 @@
+D:\Thuctap\XYNetSocket\Test\Server Service\bin\Debug\Server Service.exe
+D:\Thuctap\XYNetSocket\Test\Server Service\bin\Debug\Server Service.pdb
+D:\Thuctap\XYNetSocket\Test\Server Service\obj\Debug\ResolveAssemblyReference.cache
+D:\Thuctap\XYNetSocket\Test\Server Service\obj\Debug\Server_Service.ServerService.resources
+D:\Thuctap\XYNetSocket\Test\Server Service\obj\Debug\Server Service.csproj.GenerateResource.Cache
+D:\Thuctap\XYNetSocket\Test\Server Service\obj\Debug\Server Service.exe
+D:\Thuctap\XYNetSocket\Test\Server Service\obj\Debug\Server Service.pdb
+D:\Thuctap\XYNetSocket\Test\Server Service\bin\Debug\XYNetSocket.dll
+D:\Thuctap\XYNetSocket\Test\Server Service\bin\Debug\XYThreadPool.dll
+D:\Thuctap\XYNetSocket\Test\Server Service\bin\Debug\XYNetSocket.pdb
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\bin\Debug\Server Service.exe
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\bin\Debug\Server Service.pdb
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\bin\Debug\XYNetSocket.dll
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\bin\Debug\XYThreadPool.dll
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\bin\Debug\XYNetSocket.pdb
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\obj\Debug\ResolveAssemblyReference.cache
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\obj\Debug\Server_Service.ServerService.resources
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\obj\Debug\Server Service.csproj.GenerateResource.Cache
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\obj\Debug\Server Service.exe
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\obj\Debug\Server Service.pdb
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\obj\Debug\Server_Service.ProjectInstaller.resources
+D:\Download\GPSServer\GPSServer\Server Service\obj\Debug\Server Service.exe
+D:\Download\GPSServer\GPSServer\Server Service\obj\Debug\Server Service.pdb
+D:\Download\GPSServer\GPSServer\Server Service\bin\Debug\Server Service.exe
+D:\Download\GPSServer\GPSServer\Server Service\bin\Debug\Server Service.pdb
+D:\Download\GPSServer\GPSServer\Server Service\bin\Debug\XYNetSocket.pdb
+D:\Download\GPSServer\GPSServer\Server Service\obj\Debug\ResolveAssemblyReference.cache
+D:\Download\GPSServer\GPSServer\Server Service\obj\Debug\Server_Service.ProjectInstaller.resources
+D:\Download\GPSServer\GPSServer\Server Service\obj\Debug\Server_Service.ServerService.resources
+D:\Download\GPSServer\GPSServer\Server Service\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Download\GPSServer\GPSServer\Server Service\obj\Debug\GenerateResource-ResGen.write.1.tlog

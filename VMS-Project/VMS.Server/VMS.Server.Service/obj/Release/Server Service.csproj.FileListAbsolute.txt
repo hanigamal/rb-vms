@@ -1,0 +1,11 @@
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\bin\Release\Server Service.exe
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\bin\Release\Server Service.pdb
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\bin\Release\XYNetSocket.dll
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\bin\Release\XYThreadPool.dll
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\bin\Release\XYNetSocket.pdb
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\obj\Release\ResolveAssemblyReference.cache
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\obj\Release\Server_Service.ProjectInstaller.resources
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\obj\Release\Server_Service.ServerService.resources
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\obj\Release\Server Service.csproj.GenerateResource.Cache
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\obj\Release\Server Service.exe
+D:\Tailieu New\C#\XYNetSocket\Test\Server Service\obj\Release\Server Service.pdb
