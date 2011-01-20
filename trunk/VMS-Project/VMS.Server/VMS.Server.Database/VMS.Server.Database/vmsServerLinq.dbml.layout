@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="vmsServerLinq">
+  <DataContextMoniker Name="/vmsServerLinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0482d714-2659-44be-be64-3d6a933e4233" absoluteBounds="0.75, 1.375, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/vmsServerLinqDataContext/Module" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9046b467-877d-4295-ae79-63c9529168cf" absoluteBounds="0.765, 1.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e3bd6a98-3da1-44a2-a011-dff5b47339b9" absoluteBounds="5.625, 3.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/vmsServerLinqDataContext/Session" />
+      <nestedChildShapes>
+        <elementListCompartment Id="40bb4919-a4b3-4e29-91bd-d5994bd5e208" absoluteBounds="5.64, 4.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="81815006-fe9d-4a9a-9f9f-8e247fee76f9" absoluteBounds="3.5, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/vmsServerLinqDataContext/Tracking" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5355f458-cbcc-43c1-8dfa-d8c2da10ea77" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.5 : 3.03049967447917); (4.5 : 4.34699625651042); (5.625 : 4.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/vmsServerLinqDataContext/Tracking/Tracking_Session" />
+      <nodes>
+        <classShapeMoniker Id="81815006-fe9d-4a9a-9f9f-8e247fee76f9" />
+        <classShapeMoniker Id="e3bd6a98-3da1-44a2-a011-dff5b47339b9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.06814697265625); (3.5 : 2.06814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/vmsServerLinqDataContext/Module/Module_Tracking" />
+      <nodes>
+        <classShapeMoniker Id="0482d714-2659-44be-be64-3d6a933e4233" />
+        <classShapeMoniker Id="81815006-fe9d-4a9a-9f9f-8e247fee76f9" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

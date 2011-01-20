@@ -34,7 +34,7 @@
             // ServerService
             // 
             this.AutoLog = false;
-            this.ServiceName = "VMS Server Service";
+            this.ServiceName = "VMSServerService";
             ((System.ComponentModel.ISupportInitialize)(this.VMSServerEventLog)).EndInit();
 
         }

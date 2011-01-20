@@ -1,0 +1,12 @@
+E:\doan\rb-vms\VMS.Server\VMS.Server.Monitor\bin\Release\Vehicle Management System Server.exe.config
+E:\doan\rb-vms\VMS.Server\VMS.Server.Monitor\bin\Release\Vehicle Management System Server.exe
+E:\doan\rb-vms\VMS.Server\VMS.Server.Monitor\bin\Release\Vehicle Management System Server.pdb
+E:\doan\rb-vms\VMS.Server\VMS.Server.Monitor\bin\Release\log4net.dll
+E:\doan\rb-vms\VMS.Server\VMS.Server.Monitor\bin\Release\log4net.xml
+E:\doan\rb-vms\VMS.Server\VMS.Server.Monitor\obj\Release\ResolveAssemblyReference.cache
+E:\doan\rb-vms\VMS.Server\VMS.Server.Monitor\obj\Release\VMS.Server.Monitor.VMSMainForm.resources
+E:\doan\rb-vms\VMS.Server\VMS.Server.Monitor\obj\Release\VMS.Server.Monitor.Properties.Resources.resources
+E:\doan\rb-vms\VMS.Server\VMS.Server.Monitor\obj\Release\GenerateResource-ResGen.read.1.tlog
+E:\doan\rb-vms\VMS.Server\VMS.Server.Monitor\obj\Release\GenerateResource-ResGen.write.1.tlog
+E:\doan\rb-vms\VMS.Server\VMS.Server.Monitor\obj\Release\Vehicle Management System Server.exe
+E:\doan\rb-vms\VMS.Server\VMS.Server.Monitor\obj\Release\Vehicle Management System Server.pdb

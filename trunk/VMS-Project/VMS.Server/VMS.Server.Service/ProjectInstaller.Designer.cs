@@ -41,7 +41,7 @@
             // 
             this.VMSServerServiceInstaller.Description = "Listen Data From Vehicle";
             this.VMSServerServiceInstaller.DisplayName = "Vehicle Management System Server Service";
-            this.VMSServerServiceInstaller.ServiceName = "VMS Server Service";
+            this.VMSServerServiceInstaller.ServiceName = "VMSServerService";
             this.VMSServerServiceInstaller.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
             // ProjectInstaller

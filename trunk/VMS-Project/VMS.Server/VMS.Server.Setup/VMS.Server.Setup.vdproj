@@ -27,56 +27,56 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8AE838E9451550C31EB7DF776D2D52C6"
-        "OwnerKey" = "8:_B78812134197175934C23B9EE1773AFA"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_8AE838E9451550C31EB7DF776D2D52C6"
+        "MsmKey" = "8:_613BDE0A7354CCD4FED4C6EADC9BAC7C"
         "OwnerKey" = "8:_0A2C6AD167DC4456A37FDFE4C9C0642A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_8FCE266DB61613398B8E7198DC329EDE"
+        "MsmKey" = "8:_8E9E2FEAE0793E3EFD03A352F4C33C32"
         "OwnerKey" = "8:_1885DC96178E41A881A1F5044F8107BC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_B78812134197175934C23B9EE1773AFA"
+        "MsmKey" = "8:_AF40461D0FA1884DFA08A73BAE7306AD"
+        "OwnerKey" = "8:_613BDE0A7354CCD4FED4C6EADC9BAC7C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AF40461D0FA1884DFA08A73BAE7306AD"
         "OwnerKey" = "8:_0A2C6AD167DC4456A37FDFE4C9C0642A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8FCE266DB61613398B8E7198DC329EDE"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0A2C6AD167DC4456A37FDFE4C9C0642A"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B78812134197175934C23B9EE1773AFA"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8AE838E9451550C31EB7DF776D2D52C6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_1885DC96178E41A881A1F5044F8107BC"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_8E9E2FEAE0793E3EFD03A352F4C33C32"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_0A2C6AD167DC4456A37FDFE4C9C0642A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_613BDE0A7354CCD4FED4C6EADC9BAC7C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_AF40461D0FA1884DFA08A73BAE7306AD"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -87,7 +87,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\VMS.Server.Setup.msi"
+        "OutputFilename" = "8:Debug\\VMSServer.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -97,6 +97,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -113,6 +121,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -254,20 +270,20 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8AE838E9451550C31EB7DF776D2D52C6"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_613BDE0A7354CCD4FED4C6EADC9BAC7C"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:XYThreadPool, Version=1.0.2113.24561, Culture=neutral"
+            "AssemblyAsmDisplayName" = "8:XYNetSocket, Version=1.0.3809.42286, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_8AE838E9451550C31EB7DF776D2D52C6"
+                    "_613BDE0A7354CCD4FED4C6EADC9BAC7C"
                     {
-                    "Name" = "8:XYThreadPool.dll"
+                    "Name" = "8:XYNetSocket.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:XYThreadPool.dll"
+            "SourcePath" = "8:XYNetSocket.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E0FF2E09C1BA4164835C955A0252AB23"
@@ -285,14 +301,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8FCE266DB61613398B8E7198DC329EDE"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8E9E2FEAE0793E3EFD03A352F4C33C32"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_8FCE266DB61613398B8E7198DC329EDE"
+                    "_8E9E2FEAE0793E3EFD03A352F4C33C32"
                     {
                     "Name" = "8:log4net.dll"
                     "Attributes" = "3:512"
@@ -316,20 +332,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B78812134197175934C23B9EE1773AFA"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AF40461D0FA1884DFA08A73BAE7306AD"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:XYNetSocket, Version=1.0.3809.42286, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:XYThreadPool, Version=1.0.2113.24561, Culture=neutral"
                 "ScatterAssemblies"
                 {
-                    "_B78812134197175934C23B9EE1773AFA"
+                    "_AF40461D0FA1884DFA08A73BAE7306AD"
                     {
-                    "Name" = "8:XYNetSocket.dll"
+                    "Name" = "8:XYThreadPool.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:XYNetSocket.dll"
+            "SourcePath" = "8:XYThreadPool.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E0FF2E09C1BA4164835C955A0252AB23"
@@ -925,7 +941,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0A2C6AD167DC4456A37FDFE4C9C0642A"
             {
-            "SourcePath" = "8:..\\VMS.Server.Service\\obj\\Debug\\VMS Server Service.exe"
+            "SourcePath" = "8:..\\VMS.Server.Service\\obj\\Debug\\VMSServerService.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E0FF2E09C1BA4164835C955A0252AB23"

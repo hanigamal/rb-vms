@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
@@ -47,13 +47,13 @@ namespace VMS.Server.Monitor
             {
                 this.notifyIcon = new NotifyIcon();
                 this.configWindow = VMSMainForm.GetInstance();
-                this.configMenuItem = new ToolStripMenuItem("Cau hinh", global::VMS.Server.Monitor.Properties.Resources.WindowImage);
+                this.configMenuItem = new ToolStripMenuItem("Cấu hình", global::VMS.Server.Monitor.Properties.Resources.WindowImage);
                 this.configMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-                this.runMenuItem = new ToolStripMenuItem("Bat", global::VMS.Server.Monitor.Properties.Resources.RunImage, configWindow.RunServiceButton_Click);
-                this.stopMenuItem = new ToolStripMenuItem("Tat", global::VMS.Server.Monitor.Properties.Resources.StopImage, configWindow.StopServiceButton_Click);
-                this.startUpMenuItem = new ToolStripMenuItem("Mo cua so sau khi Windows khoi dong");
-                this.startTypeMenuItem = new ToolStripMenuItem("Khoi dong chuong trinh cung Windows");
-                this.exitMenuItem = new ToolStripMenuItem("Thoat", global::VMS.Server.Monitor.Properties.Resources.ExitImage);
+                this.runMenuItem = new ToolStripMenuItem("Bật", global::VMS.Server.Monitor.Properties.Resources.RunImage, configWindow.RunServiceButton_Click);
+                this.stopMenuItem = new ToolStripMenuItem("Tắt", global::VMS.Server.Monitor.Properties.Resources.StopImage, configWindow.StopServiceButton_Click);
+                this.startUpMenuItem = new ToolStripMenuItem("Mở cửa sổ sau khi khởi động Windows");
+                this.startTypeMenuItem = new ToolStripMenuItem("Khởi động chương trình cùng Windows");
+                this.exitMenuItem = new ToolStripMenuItem("Thoát", global::VMS.Server.Monitor.Properties.Resources.ExitImage);
                 var contextMenu = new ContextMenuStrip();
                 contextMenu.Items.AddRange(new ToolStripItem[] { configMenuItem, new ToolStripSeparator(), runMenuItem, stopMenuItem, new ToolStripSeparator(), startTypeMenuItem, startUpMenuItem, new ToolStripSeparator(), exitMenuItem });
 
@@ -109,7 +109,7 @@ namespace VMS.Server.Monitor
 
                 this.exitMenuItem.Click += (c, d) =>
                 {
-                    var result = MessageBox.Show("Thoat khoi chuong trinh dieu khien?", "Xac nhan thoat ung dung", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
+                    var result = MessageBox.Show("Thoát khỏi chương trình điều khiển?", "Xac nhan thoat ung dung", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
                     if (result == DialogResult.No)
                         return;
 
