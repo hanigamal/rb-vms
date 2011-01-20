@@ -1,0 +1,5 @@
+E:\doan\rb-vms\VMS.Server\VMS.Server.Models\VMS.Server.Models\bin\Release\VMS.Server.Models.dll
+E:\doan\rb-vms\VMS.Server\VMS.Server.Models\VMS.Server.Models\bin\Release\VMS.Server.Models.pdb
+E:\doan\rb-vms\VMS.Server\VMS.Server.Models\VMS.Server.Models\obj\Release\ResolveAssemblyReference.cache
+E:\doan\rb-vms\VMS.Server\VMS.Server.Models\VMS.Server.Models\obj\Release\VMS.Server.Models.dll
+E:\doan\rb-vms\VMS.Server\VMS.Server.Models\VMS.Server.Models\obj\Release\VMS.Server.Models.pdb

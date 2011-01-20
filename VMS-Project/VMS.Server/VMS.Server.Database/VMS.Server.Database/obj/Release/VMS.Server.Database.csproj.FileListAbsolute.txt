@@ -1,0 +1,8 @@
+E:\doan\rb-vms\VMS.Server\VMS.Server.Database\VMS.Server.Database\bin\Release\VMS.Server.Database.dll.config
+E:\doan\rb-vms\VMS.Server\VMS.Server.Database\VMS.Server.Database\bin\Release\VMS.Server.Database.dll
+E:\doan\rb-vms\VMS.Server\VMS.Server.Database\VMS.Server.Database\bin\Release\VMS.Server.Database.pdb
+E:\doan\rb-vms\VMS.Server\VMS.Server.Database\VMS.Server.Database\obj\Release\ResolveAssemblyReference.cache
+E:\doan\rb-vms\VMS.Server\VMS.Server.Database\VMS.Server.Database\obj\Release\VMS.Server.Database.dll
+E:\doan\rb-vms\VMS.Server\VMS.Server.Database\VMS.Server.Database\obj\Release\VMS.Server.Database.pdb
+E:\doan\rb-vms\VMS.Server\VMS.Server.Database\VMS.Server.Database\bin\Release\VMS.Server.Models.dll
+E:\doan\rb-vms\VMS.Server\VMS.Server.Database\VMS.Server.Database\bin\Release\VMS.Server.Models.pdb

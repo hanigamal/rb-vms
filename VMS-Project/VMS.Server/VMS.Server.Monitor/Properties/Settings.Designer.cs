@@ -25,7 +25,7 @@ namespace VMS.Server.Monitor.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("VMS Server Service")]
+        [global::System.Configuration.DefaultSettingValueAttribute("VMSServerService")]
         public string ServiceName {
             get {
                 return ((string)(this["ServiceName"]));

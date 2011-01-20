@@ -29,6 +29,7 @@ namespace VMS.Server.Service
                 VMSServerEventLog.WriteEntry(DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + "!! Error: " + oBug.Message, EventLogEntryType.Error);
                 EventLogFile(DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + "!! Error: " + oBug.Message);
             }
+
         }
         // Lang nghe Data
         private void StringInputHandler(string sRemoteAddress, int nRemotePort, string sData)

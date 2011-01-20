@@ -105,7 +105,7 @@
             // 
             // serviceController
             // 
-            this.serviceController.ServiceName = "TrucksQueuingServerService";
+            this.serviceController.ServiceName = "VMSServerService";
             // 
             // statusTimer
             // 
@@ -147,7 +147,7 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.logoPictureBox_Click);
             // 
-            // TrucksQueuingSystemMainForm
+            // VMSMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -163,7 +163,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "TrucksQueuingSystemMainForm";
+            this.Name = "VMSMainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "May Chu He Thong Quan Ly Van Tai";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);

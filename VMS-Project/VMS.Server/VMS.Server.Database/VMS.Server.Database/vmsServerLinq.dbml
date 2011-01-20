@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="vmsServer" Class="vmsServerLinqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=RANGBABI-PC\SQLEXPRESS;Initial Catalog=vmsServer;Integrated Security=True" SettingsObjectName="VMS.Server.Database.Properties.Settings" SettingsPropertyName="vmsServerConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Module" Member="Modules">
+    <Type Name="Module">
+      <Column Name="ModuleNumber" Type="System.String" DbType="NChar(11) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ModuleType" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Module_Tracking" Member="Trackings" ThisKey="ModuleNumber" OtherKey="ModuleID" Type="Tracking" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Session" Member="Sessions">
+    <Type Name="Session">
+      <Column Name="SessionID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TrackingID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Tracking_Session" Member="Tracking" ThisKey="TrackingID" OtherKey="TrackingID" Type="Tracking" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tracking" Member="Trackings">
+    <Type Name="Tracking">
+      <Column Name="TrackingID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ModuleID" Type="System.String" DbType="NChar(11)" CanBeNull="true" />
+      <Column Name="Longtitude" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Latitude" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Speed" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="FuelLevel" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Tracking_Session" Member="Sessions" ThisKey="TrackingID" OtherKey="TrackingID" Type="Session" />
+      <Association Name="Module_Tracking" Member="Module" ThisKey="ModuleID" OtherKey="ModuleNumber" Type="Module" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
