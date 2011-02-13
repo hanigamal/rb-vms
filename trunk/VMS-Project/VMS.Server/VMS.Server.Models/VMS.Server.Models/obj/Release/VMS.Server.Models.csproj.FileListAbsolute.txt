@@ -3,3 +3,8 @@ E:\doan\rb-vms\VMS.Server\VMS.Server.Models\VMS.Server.Models\bin\Release\VMS.Se
 E:\doan\rb-vms\VMS.Server\VMS.Server.Models\VMS.Server.Models\obj\Release\ResolveAssemblyReference.cache
 E:\doan\rb-vms\VMS.Server\VMS.Server.Models\VMS.Server.Models\obj\Release\VMS.Server.Models.dll
 E:\doan\rb-vms\VMS.Server\VMS.Server.Models\VMS.Server.Models\obj\Release\VMS.Server.Models.pdb
+E:\doan\rb-vms\trunk\VMS-Project\VMS.Server\VMS.Server.Models\VMS.Server.Models\bin\Release\VMS.Server.Models.dll
+E:\doan\rb-vms\trunk\VMS-Project\VMS.Server\VMS.Server.Models\VMS.Server.Models\bin\Release\VMS.Server.Models.pdb
+E:\doan\rb-vms\trunk\VMS-Project\VMS.Server\VMS.Server.Models\VMS.Server.Models\obj\Release\ResolveAssemblyReference.cache
+E:\doan\rb-vms\trunk\VMS-Project\VMS.Server\VMS.Server.Models\VMS.Server.Models\obj\Release\VMS.Server.Models.dll
+E:\doan\rb-vms\trunk\VMS-Project\VMS.Server\VMS.Server.Models\VMS.Server.Models\obj\Release\VMS.Server.Models.pdb

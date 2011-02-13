@@ -36,6 +36,9 @@ namespace VMS.Server.Database
     partial void InsertTracking(Tracking instance);
     partial void UpdateTracking(Tracking instance);
     partial void DeleteTracking(Tracking instance);
+    partial void InsertSystemLog(SystemLog instance);
+    partial void UpdateSystemLog(SystemLog instance);
+    partial void DeleteSystemLog(SystemLog instance);
     #endregion
 		
 		public vmsServerLinqDataContext() : 
@@ -76,6 +79,14 @@ namespace VMS.Server.Database
 			}
 		}
 		
+		public System.Data.Linq.Table<Tracking> Trackings
+		{
+			get
+			{
+				return this.GetTable<Tracking>();
+			}
+		}
+		
 		public System.Data.Linq.Table<Session> Sessions
 		{
 			get
@@ -84,11 +95,11 @@ namespace VMS.Server.Database
 			}
 		}
 		
-		public System.Data.Linq.Table<Tracking> Trackings
+		public System.Data.Linq.Table<SystemLog> SystemLogs
 		{
 			get
 			{
-				return this.GetTable<Tracking>();
+				return this.GetTable<SystemLog>();
 			}
 		}
 	}
@@ -228,51 +239,6 @@ namespace VMS.Server.Database
 		{
 			this.SendPropertyChanging();
 			entity.Module = null;
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Session")]
-	public partial class Session
-	{
-		
-		private System.Nullable<long> _SessionID;
-		
-		private System.Nullable<long> _TrackingID;
-		
-		public Session()
-		{
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SessionID", DbType="BigInt")]
-		public System.Nullable<long> SessionID
-		{
-			get
-			{
-				return this._SessionID;
-			}
-			set
-			{
-				if ((this._SessionID != value))
-				{
-					this._SessionID = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TrackingID", DbType="BigInt")]
-		public System.Nullable<long> TrackingID
-		{
-			get
-			{
-				return this._TrackingID;
-			}
-			set
-			{
-				if ((this._TrackingID != value))
-				{
-					this._TrackingID = value;
-				}
-			}
 		}
 	}
 	
@@ -498,6 +464,233 @@ namespace VMS.Server.Database
 						this._ModuleID = default(string);
 					}
 					this.SendPropertyChanged("Module");
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Session")]
+	public partial class Session
+	{
+		
+		private System.Nullable<long> _SessionID;
+		
+		private System.Nullable<long> _TrackingID;
+		
+		public Session()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SessionID", DbType="BigInt")]
+		public System.Nullable<long> SessionID
+		{
+			get
+			{
+				return this._SessionID;
+			}
+			set
+			{
+				if ((this._SessionID != value))
+				{
+					this._SessionID = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TrackingID", DbType="BigInt")]
+		public System.Nullable<long> TrackingID
+		{
+			get
+			{
+				return this._TrackingID;
+			}
+			set
+			{
+				if ((this._TrackingID != value))
+				{
+					this._TrackingID = value;
+				}
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.SystemLog")]
+	public partial class SystemLog : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private string _LogValue;
+		
+		private System.Nullable<System.DateTime> _Time;
+		
+		private string _Type;
+		
+		private long _LogID;
+		
+		private string _Source;
+		
+		private string _StackTrace;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnLogValueChanging(string value);
+    partial void OnLogValueChanged();
+    partial void OnTimeChanging(System.Nullable<System.DateTime> value);
+    partial void OnTimeChanged();
+    partial void OnTypeChanging(string value);
+    partial void OnTypeChanged();
+    partial void OnLogIDChanging(long value);
+    partial void OnLogIDChanged();
+    partial void OnSourceChanging(string value);
+    partial void OnSourceChanged();
+    partial void OnStackTraceChanging(string value);
+    partial void OnStackTraceChanged();
+    #endregion
+		
+		public SystemLog()
+		{
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LogValue", DbType="NVarChar(MAX)")]
+		public string LogValue
+		{
+			get
+			{
+				return this._LogValue;
+			}
+			set
+			{
+				if ((this._LogValue != value))
+				{
+					this.OnLogValueChanging(value);
+					this.SendPropertyChanging();
+					this._LogValue = value;
+					this.SendPropertyChanged("LogValue");
+					this.OnLogValueChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Time", DbType="DateTime")]
+		public System.Nullable<System.DateTime> Time
+		{
+			get
+			{
+				return this._Time;
+			}
+			set
+			{
+				if ((this._Time != value))
+				{
+					this.OnTimeChanging(value);
+					this.SendPropertyChanging();
+					this._Time = value;
+					this.SendPropertyChanged("Time");
+					this.OnTimeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Type", DbType="NVarChar(50)")]
+		public string Type
+		{
+			get
+			{
+				return this._Type;
+			}
+			set
+			{
+				if ((this._Type != value))
+				{
+					this.OnTypeChanging(value);
+					this.SendPropertyChanging();
+					this._Type = value;
+					this.SendPropertyChanged("Type");
+					this.OnTypeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LogID", DbType="BigInt NOT NULL", IsPrimaryKey=true)]
+		public long LogID
+		{
+			get
+			{
+				return this._LogID;
+			}
+			set
+			{
+				if ((this._LogID != value))
+				{
+					this.OnLogIDChanging(value);
+					this.SendPropertyChanging();
+					this._LogID = value;
+					this.SendPropertyChanged("LogID");
+					this.OnLogIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Source", DbType="NVarChar(MAX)")]
+		public string Source
+		{
+			get
+			{
+				return this._Source;
+			}
+			set
+			{
+				if ((this._Source != value))
+				{
+					this.OnSourceChanging(value);
+					this.SendPropertyChanging();
+					this._Source = value;
+					this.SendPropertyChanged("Source");
+					this.OnSourceChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_StackTrace", DbType="NVarChar(MAX)")]
+		public string StackTrace
+		{
+			get
+			{
+				return this._StackTrace;
+			}
+			set
+			{
+				if ((this._StackTrace != value))
+				{
+					this.OnStackTraceChanging(value);
+					this.SendPropertyChanging();
+					this._StackTrace = value;
+					this.SendPropertyChanged("StackTrace");
+					this.OnStackTraceChanged();
 				}
 			}
 		}
