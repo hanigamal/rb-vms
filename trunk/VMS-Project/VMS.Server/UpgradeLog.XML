@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="VMS.Server">
+</Property><Property Name="Solution File" Value="E:\doan\rb-vms\trunk\VMS-Project\VMS.Server\VMS.Server.sln">
+</Property><Property Name="Date" Value="Monday, February 14, 2011">
+</Property><Property Name="Time" Value="5:04:51 AM">
+</Property></Properties><Event ErrorLevel="0" Project="Client" Source="VMS.Server.ClientTest\Client.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Client" Source="VMS.Server.ClientTest\Client.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Client" Source="VMS.Server.ClientTest\Client.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

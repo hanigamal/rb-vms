@@ -1,0 +1,22 @@
+D:\Tailieu New\C#\XYNetSocket\Test\Client\obj\Debug\ResolveAssemblyReference.cache
+D:\Tailieu New\C#\XYNetSocket\Test\Client\obj\Debug\Client.Client.resources
+D:\Tailieu New\C#\XYNetSocket\Test\Client\obj\Debug\Client.Properties.Resources.resources
+D:\Tailieu New\C#\XYNetSocket\Test\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+D:\Tailieu New\C#\XYNetSocket\Test\Client\bin\Debug\Client.exe
+D:\Tailieu New\C#\XYNetSocket\Test\Client\bin\Debug\Client.pdb
+D:\Tailieu New\C#\XYNetSocket\Test\Client\obj\Debug\Client.exe
+D:\Tailieu New\C#\XYNetSocket\Test\Client\obj\Debug\Client.pdb
+D:\Tailieu New\C#\XYNetSocket\Test\Client\bin\Debug\XYNetSocket.dll
+D:\Tailieu New\C#\XYNetSocket\Test\Client\bin\Debug\XYThreadPool.dll
+D:\Tailieu New\C#\XYNetSocket\Test\Client\bin\Debug\XYNetSocket.pdb
+D:\Thuctap\XYNetSocket\Test\Client\bin\Debug\Client.exe
+D:\Thuctap\XYNetSocket\Test\Client\bin\Debug\Client.pdb
+D:\Thuctap\XYNetSocket\Test\Client\bin\Debug\XYNetSocket.dll
+D:\Thuctap\XYNetSocket\Test\Client\bin\Debug\XYThreadPool.dll
+D:\Thuctap\XYNetSocket\Test\Client\bin\Debug\XYNetSocket.pdb
+D:\Thuctap\XYNetSocket\Test\Client\obj\Debug\ResolveAssemblyReference.cache
+D:\Thuctap\XYNetSocket\Test\Client\obj\Debug\Client.Client.resources
+D:\Thuctap\XYNetSocket\Test\Client\obj\Debug\Client.Properties.Resources.resources
+D:\Thuctap\XYNetSocket\Test\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+D:\Thuctap\XYNetSocket\Test\Client\obj\Debug\Client.exe
+D:\Thuctap\XYNetSocket\Test\Client\obj\Debug\Client.pdb
