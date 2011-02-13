@@ -27,25 +27,91 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_613BDE0A7354CCD4FED4C6EADC9BAC7C"
+        "MsmKey" = "8:_25133356DF099E29AB7FA2BD3649097E"
         "OwnerKey" = "8:_0A2C6AD167DC4456A37FDFE4C9C0642A"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_8E9E2FEAE0793E3EFD03A352F4C33C32"
+        "MsmKey" = "8:_25133356DF099E29AB7FA2BD3649097E"
         "OwnerKey" = "8:_1885DC96178E41A881A1F5044F8107BC"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_AF40461D0FA1884DFA08A73BAE7306AD"
-        "OwnerKey" = "8:_613BDE0A7354CCD4FED4C6EADC9BAC7C"
+        "MsmKey" = "8:_25133356DF099E29AB7FA2BD3649097E"
+        "OwnerKey" = "8:_E93EED29774AAB1CDF093FB35F683C20"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_AF40461D0FA1884DFA08A73BAE7306AD"
+        "MsmKey" = "8:_25133356DF099E29AB7FA2BD3649097E"
+        "OwnerKey" = "8:_E8CA4EB75F6D8C9C2251FCFAE0CB3A31"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_316E861F9B61175656F610095ACE764F"
+        "OwnerKey" = "8:_0A2C6AD167DC4456A37FDFE4C9C0642A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3C05DCB35A7CC3A87F5042EFEA04F65E"
+        "OwnerKey" = "8:_6C958D28310566907056E82E267F57C0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3C05DCB35A7CC3A87F5042EFEA04F65E"
+        "OwnerKey" = "8:_E338EA79C9BF4E0A8BF0C8974E9B6001"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6C958D28310566907056E82E267F57C0"
+        "OwnerKey" = "8:_E338EA79C9BF4E0A8BF0C8974E9B6001"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_814DA1130E9BA4442F177A230A001FB1"
+        "OwnerKey" = "8:_316E861F9B61175656F610095ACE764F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_814DA1130E9BA4442F177A230A001FB1"
+        "OwnerKey" = "8:_0A2C6AD167DC4456A37FDFE4C9C0642A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C57A98702D6BFD759F0C4E12B6E995E3"
+        "OwnerKey" = "8:_E8CA4EB75F6D8C9C2251FCFAE0CB3A31"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C57A98702D6BFD759F0C4E12B6E995E3"
+        "OwnerKey" = "8:_0A2C6AD167DC4456A37FDFE4C9C0642A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E338EA79C9BF4E0A8BF0C8974E9B6001"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E8CA4EB75F6D8C9C2251FCFAE0CB3A31"
+        "OwnerKey" = "8:_0A2C6AD167DC4456A37FDFE4C9C0642A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E93EED29774AAB1CDF093FB35F683C20"
         "OwnerKey" = "8:_0A2C6AD167DC4456A37FDFE4C9C0642A"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -58,7 +124,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8E9E2FEAE0793E3EFD03A352F4C33C32"
+        "OwnerKey" = "8:_E338EA79C9BF4E0A8BF0C8974E9B6001"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_6C958D28310566907056E82E267F57C0"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_3C05DCB35A7CC3A87F5042EFEA04F65E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -70,13 +148,37 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_613BDE0A7354CCD4FED4C6EADC9BAC7C"
+        "OwnerKey" = "8:_E93EED29774AAB1CDF093FB35F683C20"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_AF40461D0FA1884DFA08A73BAE7306AD"
+        "OwnerKey" = "8:_E8CA4EB75F6D8C9C2251FCFAE0CB3A31"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_C57A98702D6BFD759F0C4E12B6E995E3"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_316E861F9B61175656F610095ACE764F"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_814DA1130E9BA4442F177A230A001FB1"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_25133356DF099E29AB7FA2BD3649097E"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -104,6 +206,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
         "Release"
@@ -128,6 +243,19 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
             }
         }
     }
@@ -177,6 +305,20 @@
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_46EDBBC854E440F1808ACE5B7DFE27DB"
+            {
+            "Name" = "8:Primary output from VMS.Server.ClientTest (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_E338EA79C9BF4E0A8BF0C8974E9B6001"
+            "FileType" = "3:2"
+            "InstallAction" = "3:4"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:3"
+            "Identifier" = "8:_85B73A08_12B5_49BB_9F1A_1F9CC34AD347"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
             "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_6FFBD1632AA24A3A828E04FE37DDADDA"
             {
             "Name" = "8:Primary output from VMS.Server.Monitor (Active)"
@@ -188,6 +330,34 @@
             "EntryPoint" = "8:"
             "Sequence" = "3:1"
             "Identifier" = "8:_54EC5552_6DC9_4B18_A586_E0969AB954E0"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_A203297885C344018045F2FB08F5C05D"
+            {
+            "Name" = "8:Primary output from VMS.Server.ClientTest (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_E338EA79C9BF4E0A8BF0C8974E9B6001"
+            "FileType" = "3:2"
+            "InstallAction" = "3:1"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:3"
+            "Identifier" = "8:_5F46DBE1_47B6_4D54_A858_3CE5D1926188"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_A2C373E300884CA291FF7A93E59A472E"
+            {
+            "Name" = "8:Primary output from VMS.Server.ClientTest (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_E338EA79C9BF4E0A8BF0C8974E9B6001"
+            "FileType" = "3:2"
+            "InstallAction" = "3:2"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:3"
+            "Identifier" = "8:_42A70E6F_7149_4D7A_B5DE_592DE7912CB1"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
@@ -216,6 +386,20 @@
             "EntryPoint" = "8:"
             "Sequence" = "3:2"
             "Identifier" = "8:_EC2058C0_696E_4B4F_851F_2F0324286ECD"
+            "InstallerClass" = "11:TRUE"
+            "CustomActionData" = "8:"
+            }
+            "{4AA51A2D-7D85-4A59-BA75-B0809FC8B380}:_CEC3B2EB842649E1AA575AAE8E683B45"
+            {
+            "Name" = "8:Primary output from VMS.Server.ClientTest (Active)"
+            "Condition" = "8:"
+            "Object" = "8:_E338EA79C9BF4E0A8BF0C8974E9B6001"
+            "FileType" = "3:2"
+            "InstallAction" = "3:3"
+            "Arguments" = "8:"
+            "EntryPoint" = "8:"
+            "Sequence" = "3:3"
+            "Identifier" = "8:_21F8F7C4_B34F_4F10_AE83_F795F01AA578"
             "InstallerClass" = "11:TRUE"
             "CustomActionData" = "8:"
             }
@@ -270,45 +454,14 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_613BDE0A7354CCD4FED4C6EADC9BAC7C"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:XYNetSocket, Version=1.0.3809.42286, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_613BDE0A7354CCD4FED4C6EADC9BAC7C"
-                    {
-                    "Name" = "8:XYNetSocket.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:XYNetSocket.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_E0FF2E09C1BA4164835C955A0252AB23"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8E9E2FEAE0793E3EFD03A352F4C33C32"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_25133356DF099E29AB7FA2BD3649097E"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_8E9E2FEAE0793E3EFD03A352F4C33C32"
+                    "_25133356DF099E29AB7FA2BD3649097E"
                     {
                     "Name" = "8:log4net.dll"
                     "Attributes" = "3:512"
@@ -332,20 +485,206 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_AF40461D0FA1884DFA08A73BAE7306AD"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_316E861F9B61175656F610095ACE764F"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:XYNetSocket, Version=1.0.3809.42286, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_316E861F9B61175656F610095ACE764F"
+                    {
+                    "Name" = "8:XYNetSocket.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:XYNetSocket.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_E0FF2E09C1BA4164835C955A0252AB23"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3C05DCB35A7CC3A87F5042EFEA04F65E"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:XYThreadPool, Version=1.0.2113.24561, Culture=neutral"
                 "ScatterAssemblies"
                 {
-                    "_AF40461D0FA1884DFA08A73BAE7306AD"
+                    "_3C05DCB35A7CC3A87F5042EFEA04F65E"
                     {
                     "Name" = "8:XYThreadPool.dll"
                     "Attributes" = "3:512"
                     }
                 }
             "SourcePath" = "8:XYThreadPool.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_E0FF2E09C1BA4164835C955A0252AB23"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6C958D28310566907056E82E267F57C0"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:XYNetSocket, Version=1.0.3809.42286, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_6C958D28310566907056E82E267F57C0"
+                    {
+                    "Name" = "8:XYNetSocket.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:XYNetSocket.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_E0FF2E09C1BA4164835C955A0252AB23"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_814DA1130E9BA4442F177A230A001FB1"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:XYThreadPool, Version=1.0.2113.24561, Culture=neutral"
+                "ScatterAssemblies"
+                {
+                    "_814DA1130E9BA4442F177A230A001FB1"
+                    {
+                    "Name" = "8:XYThreadPool.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:XYThreadPool.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_E0FF2E09C1BA4164835C955A0252AB23"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C57A98702D6BFD759F0C4E12B6E995E3"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:VMS.Server.Models, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_C57A98702D6BFD759F0C4E12B6E995E3"
+                    {
+                    "Name" = "8:VMS.Server.Models.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:VMS.Server.Models.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_E0FF2E09C1BA4164835C955A0252AB23"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E8CA4EB75F6D8C9C2251FCFAE0CB3A31"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:VMS.Server.Database, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_E8CA4EB75F6D8C9C2251FCFAE0CB3A31"
+                    {
+                    "Name" = "8:VMS.Server.Database.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:VMS.Server.Database.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_E0FF2E09C1BA4164835C955A0252AB23"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E93EED29774AAB1CDF093FB35F683C20"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Vehicle Management System Server, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_E93EED29774AAB1CDF093FB35F683C20"
+                    {
+                    "Name" = "8:Vehicle Management System Server.exe"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Vehicle Management System Server.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E0FF2E09C1BA4164835C955A0252AB23"
@@ -418,9 +757,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:VMS.Server.Setup"
+        "ProductName" = "8:Vehicle Management System"
         "ProductCode" = "8:{213D2366-E973-4110-BE11-B27B2576DB40}"
-        "PackageCode" = "8:{AC851958-A699-4C3E-A968-CDAFEC1A8793}"
+        "PackageCode" = "8:{0C604E93-204F-4CA6-998B-9F03173C9D73}"
         "UpgradeCode" = "8:{9CED0E13-9403-4F76-944B-633281EE0A8A}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -428,12 +767,12 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:RBGroup"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:VMS.Server.Setup"
+        "Title" = "8:Setup VMS Server"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:Nguyet Minh - Van Thien"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -941,7 +1280,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0A2C6AD167DC4456A37FDFE4C9C0642A"
             {
-            "SourcePath" = "8:..\\VMS.Server.Service\\obj\\Debug\\VMSServerService.exe"
+            "SourcePath" = "8:..\\VMS.Server.Service\\obj\\Release\\VMSServerService.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E0FF2E09C1BA4164835C955A0252AB23"
@@ -969,7 +1308,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_1885DC96178E41A881A1F5044F8107BC"
             {
-            "SourcePath" = "8:..\\VMS.Server.Monitor\\obj\\Debug\\Vehicle Management System Server.exe"
+            "SourcePath" = "8:..\\VMS.Server.Monitor\\obj\\Release\\Vehicle Management System Server.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_E0FF2E09C1BA4164835C955A0252AB23"
@@ -990,6 +1329,34 @@
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{4D6D7141-CEC7-4299-8E1B-7036050D53BF}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E338EA79C9BF4E0A8BF0C8974E9B6001"
+            {
+            "SourcePath" = "8:..\\VMS.Server.ClientTest\\obj\\Release\\Client.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_E0FF2E09C1BA4164835C955A0252AB23"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{89910F4D-4EAC-4FC3-94A0-20D85875F624}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {

@@ -14,7 +14,6 @@ namespace VMS.Server.Database.DataAccess
 
         public void Save(SystemLogModel model)
         {
-            log4net.Debug("end");
             vmsServerLinqDataContext datacontext = new vmsServerLinqDataContext();
             SystemLog log = new SystemLog();
             log.LogID = GetLongID();
@@ -24,10 +23,7 @@ namespace VMS.Server.Database.DataAccess
             log.Source = model.Source;
             log.StackTrace = model.StackTrace;
             datacontext.SystemLogs.InsertOnSubmit(log);
-
-            log4net.Debug("end");
             datacontext.SubmitChanges();
-            log4net.Debug("end");
         }
 
         public long GetLongID()

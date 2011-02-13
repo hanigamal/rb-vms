@@ -1,0 +1,11 @@
+D:\Tailieu New\C#\XYNetSocket\Test\Client\bin\Release\Client.exe
+D:\Tailieu New\C#\XYNetSocket\Test\Client\bin\Release\Client.pdb
+D:\Tailieu New\C#\XYNetSocket\Test\Client\bin\Release\XYNetSocket.dll
+D:\Tailieu New\C#\XYNetSocket\Test\Client\bin\Release\XYThreadPool.dll
+D:\Tailieu New\C#\XYNetSocket\Test\Client\bin\Release\XYNetSocket.pdb
+D:\Tailieu New\C#\XYNetSocket\Test\Client\obj\Release\ResolveAssemblyReference.cache
+D:\Tailieu New\C#\XYNetSocket\Test\Client\obj\Release\Client.Client.resources
+D:\Tailieu New\C#\XYNetSocket\Test\Client\obj\Release\Client.Properties.Resources.resources
+D:\Tailieu New\C#\XYNetSocket\Test\Client\obj\Release\Client.csproj.GenerateResource.Cache
+D:\Tailieu New\C#\XYNetSocket\Test\Client\obj\Release\Client.exe
+D:\Tailieu New\C#\XYNetSocket\Test\Client\obj\Release\Client.pdb

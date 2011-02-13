@@ -60,24 +60,25 @@ namespace VMS.Server.Service
         {
             log4net.Info("Connected to:" + sRemoteAddress + ":" + nRemotePort.ToString());
         }
+
         public ServerService()
         {
-            log4net.Info("Sevice Constructor");
             InitializeComponent();
             // VMSServerServiceEventLog
+
+            logAccess = new SystemLogData();
             moduleAccess = new ModuleData();
             trackingAccess = new TrackingData();
         }
 
         protected override void OnStart(string[] args)
         {
-            logAccess = new SystemLogData();
+            log4net.Info("/**************" + DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + "*****************/");
             log4net.Info("Sevice is starting...");
-            RegisterLog("Sevice is starting...", "Info", "Service", "Stack");
-            log4net.Debug("TEst");
+            RegisterLog("Sevice is starting...", "Info", "Service", "Unknown");
             try
             {
-                log4net.Debug("Sever: " + ServerIP + " : " + PortNumber.ToString());
+                log4net.Info("Listen: " + ServerIP + ":" + PortNumber.ToString());
                 myServer = new XYNetServer(ServerIP, PortNumber, 0, 100);
                 myServer.SetExceptionHandler(new ExceptionHandlerDelegate(this.ExceptionHandler));
                 myServer.SetStringInputHandler(new StringInputHandlerDelegate(this.StringInputHandler));
@@ -86,6 +87,11 @@ namespace VMS.Server.Service
                 {
                     log4net.Info("Server Listenning is Started");
                     RegisterLog("Server Listenning is Started", "Info", "Service", "Unknown");
+                }
+                else
+                {
+                    log4net.Info("Cannot Start Listen Server");
+                    this.Stop();
                 }
             }
             catch (Exception oBug)
@@ -112,37 +118,76 @@ namespace VMS.Server.Service
                 model.StackTrace = stacktrace;
                 model.LogTime = DateTime.Now;
                 logAccess.Save(model);
-                log4net.Debug("te");
             }
             catch (Exception ex)
             {
                 log4net.Error("Cannot save log. Reason:" + ex.Message);
             }
         }
+
         private void DataReceived(string sData)
         {
-            string moduleNumber = sData.Substring(0, 11);
-            double longtitude = Convert.ToDouble(sData.Substring(11, LongLength));
-            double latitude = Convert.ToDouble(sData.Substring(11 + LongLength, LatLength));
-            double speed = Convert.ToDouble(sData.Substring(11 + LongLength + LatLength, SpeedLength));
-            double fuel = Convert.ToDouble(sData.Substring(11 + LongLength + LatLength + SpeedLength, FuelLength));
-            ModuleModel module = moduleAccess.GetModule(moduleNumber);
-            if (module == null)
+            try
             {
-                module.ModuleNumber = moduleNumber;
-                module.ModuleType = "Module Sensor";
-                module.IsActive = true;
-                moduleAccess.Save(module);
-            }
+                log4net.Info("Save Data:" + sData);
+                if (checkDataCorrectFormat(sData))
+                {
+                    string moduleNumber = sData.Substring(0, 11);
+                    double longtitude = Convert.ToDouble(sData.Substring(11, LongLength));
+                    double latitude = Convert.ToDouble(sData.Substring(11 + LongLength, LatLength));
+                    double speed = Convert.ToDouble(sData.Substring(11 + LongLength + LatLength, SpeedLength));
+                    double fuel = Convert.ToDouble(sData.Substring(11 + LongLength + LatLength + SpeedLength, FuelLength));
+                    ModuleModel module = moduleAccess.GetModule(moduleNumber);
+                    if (module == null)
+                    {
+                        module.ModuleNumber = moduleNumber;
+                        module.ModuleType = "Module Sensor";
+                        module.IsActive = true;
+                        moduleAccess.Save(module);
+                    }
 
-            TrackingModel track = new TrackingModel();
-            track.ModuleNumber = module.ModuleNumber;
-            track.Longtitude = longtitude;
-            track.Latitude = latitude;
-            track.Speed = speed;
-            track.FuelLevel = fuel;
-            track.Time = DateTime.Now;
-            trackingAccess.Save(track);
+                    TrackingModel track = new TrackingModel();
+                    track.ModuleNumber = module.ModuleNumber;
+                    track.Longtitude = longtitude;
+                    track.Latitude = latitude;
+                    track.Speed = speed;
+                    track.FuelLevel = fuel;
+                    track.Time = DateTime.Now;
+                    trackingAccess.Save(track);
+                    log4net.Info("Save Data Completed");
+                }
+                else
+                {
+                    log4net.Error("string received incorrect format");
+                }
+            }
+            catch (Exception ex)
+            {
+                log4net.Error("Cannot save data. Reason:" + ex.Message);
+            }
+        }
+
+        private bool checkDataCorrectFormat(string sData)
+        {
+            if (sData.Length == (11 + LongLength + LatLength + SpeedLength + FuelLength))
+            {
+                long moduleNumber;
+                bool isModuleNumber = long.TryParse(sData.Substring(0, 11), out moduleNumber);
+                double longtitude;
+                bool isLongtitude = double.TryParse(sData.Substring(11, LongLength), out longtitude);
+                double latitude;
+                bool isLatitude = double.TryParse(sData.Substring(11 + LongLength, LatLength), out latitude);
+                double speed;
+                bool isSpeed = double.TryParse(sData.Substring(11 + LongLength + LatLength, SpeedLength), out speed);
+                double fuel;
+                bool isFuel = double.TryParse(sData.Substring(11 + LongLength + LatLength + SpeedLength, FuelLength), out fuel);
+
+                return isModuleNumber && isLongtitude && isLatitude && isSpeed && isFuel;
+            }
+            else
+            {
+                return false;
+            }
         }
 
     }
