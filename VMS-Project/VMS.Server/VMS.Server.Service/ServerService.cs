@@ -1,107 +1,149 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
-using System.Linq;
-using System.ServiceProcess;
-using System.Text;
-using XYNetSocketLib;
-using System.Net.Sockets;
 using System.IO;
-using System.Threading;
+using System.Net.Sockets;
+using System.ServiceProcess;
+using VMS.Server.Database;
+using XYNetSocketLib;
+using VMS.Server.Models;
+using VMS.Server.Database.DataAccess;
+using log4net;
+using System.Reflection;
 
 namespace VMS.Server.Service
 {
     public partial class ServerService : ServiceBase
     {
-        private string ServerIP = null;
-        private int PortNumber = 8080;
+        #region DataAccess
+
+        private ModuleData moduleAccess = null;
+        private TrackingData trackingAccess = null;
+        private SystemLogData logAccess = null;
+
+        #endregion
+
+        #region Configuration
+
+        private string ServerIP = global::VMS.Server.Service.Properties.Setting.Default["ServerIP"].ToString();
+        private int PortNumber = Convert.ToInt32(global::VMS.Server.Service.Properties.Setting.Default["Port"]);
+        private int LongLength = Convert.ToInt32(global::VMS.Server.Service.Properties.Setting.Default["LongLength"]);
+        private int LatLength = Convert.ToInt32(global::VMS.Server.Service.Properties.Setting.Default["LatLength"]);
+        private int SpeedLength = Convert.ToInt32(global::VMS.Server.Service.Properties.Setting.Default["SpeedLength"]);
+        private int FuelLength = Convert.ToInt32(global::VMS.Server.Service.Properties.Setting.Default["FuelLength"]);
+
+        #endregion
+
         private XYNetServer myServer = null;
+        private static readonly ILog log4net = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
         // Lag nghe Errors
         private void ExceptionHandler(Exception oBug)
         {
-            VMSServerEventLog.WriteEntry(DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + "!! Error: " + oBug.Message, EventLogEntryType.Error);
-            EventLogFile(DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + "!! Error: " + oBug.Message);
+            log4net.Error(oBug.Message);
+            RegisterLog(oBug.Message, "Error", oBug.Source, oBug.StackTrace);
             Exception oEx = myServer.GetLastException();
             if (oEx != null)
             {
-                VMSServerEventLog.WriteEntry(DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + "!! Error: " + oBug.Message, EventLogEntryType.Error);
-                EventLogFile(DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + "!! Error: " + oBug.Message);
+                log4net.Error(oBug.Message);
+                RegisterLog(oBug.Message, "Error", oBug.Source, oBug.StackTrace);
             }
 
         }
         // Lang nghe Data
         private void StringInputHandler(string sRemoteAddress, int nRemotePort, string sData)
         {
-            VMSServerEventLog.WriteEntry(DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + " >> Received Data from: " + sRemoteAddress + ":" + nRemotePort.ToString(), EventLogEntryType.Information);
-            VMSServerEventLog.WriteEntry("::" + sData, EventLogEntryType.SuccessAudit);
-            DataReceivedFile(DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + " >> Received Data from: " + sRemoteAddress + ":" + nRemotePort.ToString());
-            DataReceivedFile("::" + sData);
+            log4net.Info("Received Data from: " + sRemoteAddress + ":" + nRemotePort.ToString());
+            DataReceived(sData);
         }
         // Lang nghe Connection
         private void ConnectionFilter(string sRemoteAddress, int nRemotePort, Socket sock)
         {
-            VMSServerEventLog.WriteEntry(DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + " << Connected to:" + sRemoteAddress + ":" + nRemotePort.ToString(), EventLogEntryType.Information);
+            log4net.Info("Connected to:" + sRemoteAddress + ":" + nRemotePort.ToString());
         }
         public ServerService()
         {
+            log4net.Info("Sevice Constructor");
             InitializeComponent();
             // VMSServerServiceEventLog
-            if (!System.Diagnostics.EventLog.SourceExists("VMSServerServiceEvent_Source"))
-            {
-                System.Diagnostics.EventLog.CreateEventSource("VMSServerServiceEvent_Source", "VMSServerServiceEvent_Log");
-            }
-            VMSServerEventLog.Source = "VMSServerServiceEvent_Source";
-            VMSServerEventLog.Log = "VMSServerServiceEvent_Log";
+            moduleAccess = new ModuleData();
+            trackingAccess = new TrackingData();
         }
 
         protected override void OnStart(string[] args)
         {
+            logAccess = new SystemLogData();
+            log4net.Info("Sevice is starting...");
+            RegisterLog("Sevice is starting...", "Info", "Service", "Stack");
+            log4net.Debug("TEst");
             try
-            {   
-                myServer = new XYNetServer(ServerIP,PortNumber, 0, 100);
+            {
+                log4net.Debug("Sever: " + ServerIP + " : " + PortNumber.ToString());
+                myServer = new XYNetServer(ServerIP, PortNumber, 0, 100);
                 myServer.SetExceptionHandler(new ExceptionHandlerDelegate(this.ExceptionHandler));
                 myServer.SetStringInputHandler(new StringInputHandlerDelegate(this.StringInputHandler));
                 myServer.SetConnectionFilter(new ConnectionFilterDelegate(this.ConnectionFilter));
                 if (myServer.StartServer() == true)
                 {
-                    VMSServerEventLog.WriteEntry(DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + "Server Listenning is Started", EventLogEntryType.SuccessAudit);
-                    EventLogFile(DateTime.Now.ToShortDateString() + " " + DateTime.Now.ToShortTimeString() + "Server Listenning is Started");
+                    log4net.Info("Server Listenning is Started");
+                    RegisterLog("Server Listenning is Started", "Info", "Service", "Unknown");
                 }
             }
             catch (Exception oBug)
             {
-                VMSServerEventLog.WriteEntry("Error Type: " + oBug.GetType().Name, EventLogEntryType.Warning);
-                VMSServerEventLog.WriteEntry("Error Message: " + oBug.Message, EventLogEntryType.Warning);
-                VMSServerEventLog.WriteEntry("Error Source: " + oBug.Source, EventLogEntryType.Warning);
-                VMSServerEventLog.WriteEntry("Error StackTrace: " + oBug.StackTrace, EventLogEntryType.Warning);
+                log4net.Error("Cannot Start Service" + oBug.Message);
+                RegisterLog(oBug.Message, oBug.GetType().Name, oBug.Source, oBug.StackTrace);
             }
         }
 
         protected override void OnStop()
         {
             myServer.StopServer();
+            log4net.Info("Sevice is stoping...");
         }
-        private void EventLogFile(string Log)
+        private void RegisterLog(string logValue, string logType, string source, string stacktrace)
         {
-            FileStream f = new FileStream(@"C:\EventLog.txt", FileMode.Append, FileAccess.Write);
-            StreamWriter sw = new StreamWriter(f);
-
-            sw.WriteLine(Log);
-            f.Flush();
-            sw.Flush();
-            sw.Dispose();
+            log4net.Info("Save Log:" + logValue + " - " + logType + " - " + source + " - " + stacktrace);
+            try
+            {
+                SystemLogModel model = new SystemLogModel();
+                model.LogValue = logValue;
+                model.LogType = logType;
+                model.Source = source;
+                model.StackTrace = stacktrace;
+                model.LogTime = DateTime.Now;
+                logAccess.Save(model);
+                log4net.Debug("te");
+            }
+            catch (Exception ex)
+            {
+                log4net.Error("Cannot save log. Reason:" + ex.Message);
+            }
         }
-        private void DataReceivedFile(string sData)
+        private void DataReceived(string sData)
         {
-            FileStream f = new FileStream(@"C:\DataLog.txt", FileMode.Append, FileAccess.Write);
-            StreamWriter sw = new StreamWriter(f);
+            string moduleNumber = sData.Substring(0, 11);
+            double longtitude = Convert.ToDouble(sData.Substring(11, LongLength));
+            double latitude = Convert.ToDouble(sData.Substring(11 + LongLength, LatLength));
+            double speed = Convert.ToDouble(sData.Substring(11 + LongLength + LatLength, SpeedLength));
+            double fuel = Convert.ToDouble(sData.Substring(11 + LongLength + LatLength + SpeedLength, FuelLength));
+            ModuleModel module = moduleAccess.GetModule(moduleNumber);
+            if (module == null)
+            {
+                module.ModuleNumber = moduleNumber;
+                module.ModuleType = "Module Sensor";
+                module.IsActive = true;
+                moduleAccess.Save(module);
+            }
 
-            sw.WriteLine(sData);
-            f.Flush();
-            sw.Flush();
-            sw.Dispose();
+            TrackingModel track = new TrackingModel();
+            track.ModuleNumber = module.ModuleNumber;
+            track.Longtitude = longtitude;
+            track.Latitude = latitude;
+            track.Speed = speed;
+            track.FuelLevel = fuel;
+            track.Time = DateTime.Now;
+            trackingAccess.Save(track);
         }
+
     }
 }

@@ -8,13 +8,6 @@
       <Association Name="Module_Tracking" Member="Trackings" ThisKey="ModuleNumber" OtherKey="ModuleID" Type="Tracking" />
     </Type>
   </Table>
-  <Table Name="dbo.Session" Member="Sessions">
-    <Type Name="Session">
-      <Column Name="SessionID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
-      <Column Name="TrackingID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
-      <Association Name="Tracking_Session" Member="Tracking" ThisKey="TrackingID" OtherKey="TrackingID" Type="Tracking" IsForeignKey="true" />
-    </Type>
-  </Table>
   <Table Name="dbo.Tracking" Member="Trackings">
     <Type Name="Tracking">
       <Column Name="TrackingID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
@@ -26,6 +19,23 @@
       <Column Name="Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
       <Association Name="Tracking_Session" Member="Sessions" ThisKey="TrackingID" OtherKey="TrackingID" Type="Session" />
       <Association Name="Module_Tracking" Member="Module" ThisKey="ModuleID" OtherKey="ModuleNumber" Type="Module" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Session" Member="Sessions">
+    <Type Name="Session">
+      <Column Name="SessionID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TrackingID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Tracking_Session" Member="Tracking" ThisKey="TrackingID" OtherKey="TrackingID" Type="Tracking" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SystemLog" Member="SystemLogs">
+    <Type Name="SystemLog">
+      <Column Name="LogValue" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LogID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Source" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="StackTrace" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
     </Type>
   </Table>
 </Database>

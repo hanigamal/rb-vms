@@ -28,20 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.VMSServerEventLog = new System.Diagnostics.EventLog();
-            ((System.ComponentModel.ISupportInitialize)(this.VMSServerEventLog)).BeginInit();
             // 
             // ServerService
             // 
             this.AutoLog = false;
             this.ServiceName = "VMSServerService";
-            ((System.ComponentModel.ISupportInitialize)(this.VMSServerEventLog)).EndInit();
 
         }
 
         #endregion
 
-        
-        public System.Diagnostics.EventLog VMSServerEventLog;
     }
 }
