@@ -1,0 +1,5 @@
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Model\bin\Debug\VMS.Client.Model.dll
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Model\bin\Debug\VMS.Client.Model.pdb
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Model\obj\Debug\ResolveAssemblyReference.cache
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Model\obj\Debug\VMS.Client.Model.dll
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Model\obj\Debug\VMS.Client.Model.pdb
