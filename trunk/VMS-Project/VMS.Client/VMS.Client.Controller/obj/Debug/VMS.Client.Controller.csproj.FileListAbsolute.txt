@@ -9,3 +9,14 @@ E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\bin\D
 E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\bin\Debug\PureMVC.DotNET.35.xml
 E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\obj\Debug\VMS.Client.Controller.dll
 E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\obj\Debug\VMS.Client.Controller.pdb
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\bin\Debug\VMS.Client.Controller.dll
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\bin\Debug\VMS.Client.Controller.pdb
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\bin\Debug\log4net.dll
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\bin\Debug\PureMVC.DotNET.35.dll
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\bin\Debug\VMS.Client.Database.dll
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\bin\Debug\VMS.Client.Facade.dll
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\bin\Debug\log4net.xml
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\bin\Debug\PureMVC.DotNET.35.xml
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\obj\Debug\ResolveAssemblyReference.cache
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\obj\Debug\VMS.Client.Controller.dll
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Controller\obj\Debug\VMS.Client.Controller.pdb

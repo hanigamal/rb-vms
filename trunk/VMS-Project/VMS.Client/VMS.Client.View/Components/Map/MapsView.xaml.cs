@@ -10,8 +10,8 @@ namespace VMS.Client.View.Component.Map
     public partial class MapsView : UserControl
     {
         public MapsView()
-        { 
-        
+        {
+            InitializeComponent();
         }
     }
 }

@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GMap.NET.Core">
+      <HintPath>..\Binary\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsPresentation">
+      <HintPath>..\Binary\GMap.NET.WindowsPresentation.dll</HintPath>
+    </Reference>
     <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Binary\log4net.dll</HintPath>
@@ -54,6 +60,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Binary\System.Data.SQLite.DLL</HintPath>
+    </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.Services" />
@@ -88,10 +98,30 @@
     </Compile>
     <Compile Include="Components\Librarys\GridLengthAnimation.cs" />
     <Compile Include="Components\Librarys\LayoutToLayout.cs" />
-    <Compile Include="Components\Map\BingMapHelper.cs" />
+    <Compile Include="Components\Map\Controls\TrolleyTooltip.xaml.cs">
+      <DependentUpon>TrolleyTooltip.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Map\CustomMarkers\Circle.xaml.cs">
+      <DependentUpon>Circle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Map\CustomMarkers\CircleVisual.cs" />
+    <Compile Include="Components\Map\CustomMarkers\Cross.xaml.cs">
+      <DependentUpon>Cross.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Map\CustomMarkers\CustomMarkerDemo.xaml.cs">
+      <DependentUpon>CustomMarkerDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Map\CustomMarkers\CustomMarkerRed.xaml.cs">
+      <DependentUpon>CustomMarkerRed.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Components\Map\CustomMarkers\Test.xaml.cs">
+      <DependentUpon>Test.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Components\Map\MapsView.xaml.cs">
       <DependentUpon>MapsView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Components\Map\Source\App.cs" />
+    <Compile Include="Components\Map\Source\Map.cs" />
     <Compile Include="Components\MinmaxControl.cs" />
     <Compile Include="Components\Report\DriverReport.xaml.cs">
       <DependentUpon>DriverReport.xaml</DependentUpon>
@@ -130,6 +160,30 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="Components\FleetManagementView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Components\Map\Controls\TrolleyTooltip.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Components\Map\CustomMarkers\Circle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Components\Map\CustomMarkers\Cross.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Components\Map\CustomMarkers\CustomMarkerDemo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Components\Map\CustomMarkers\CustomMarkerRed.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Components\Map\CustomMarkers\Test.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -354,6 +408,12 @@
   </ItemGroup>
   <ItemGroup>
     <CodeAnalysisDictionary Include="Images\YellowAlert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Components\Map\bigMarkerGreen.png" />
+    <Content Include="Components\Map\CustomMarkers\bigMarkerGreen.png" />
+    <Content Include="Components\Map\CustomMarkers\red-dot.png" />
+    <Content Include="Components\Map\red-dot.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:MinmaxControlLibrarys="clr-namespace:VMS.Client.View.Component.MinmaxControlLibrarys"
              mc:Ignorable="d"
+             xmlns:src="clr-namespace:VMS.Client.View.Component.Map.Source"
              x:Class="VMS.Client.View.Component.Map.MapsView">
     <UserControl.Resources>
         <ControlTemplate x:Key="FluidExpander"
@@ -352,9 +353,11 @@
                        FontSize="12" />
             <Grid Grid.Row="1"
                   x:Name="grdContent">
-                <!--<telerik:RadMap x:Name="RadMap1"
-                                ZoomLevel="7" />
-               --> 
+                <src:Map x:Name="MainMap"
+                         MapType="GoogleMap"
+                         Zoom="13"
+                         MaxZoom="17"
+                         MinZoom="1" />
             </Grid>
         </Grid>
     </Border>

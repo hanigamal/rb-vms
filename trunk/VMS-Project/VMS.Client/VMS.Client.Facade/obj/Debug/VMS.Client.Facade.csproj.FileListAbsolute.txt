@@ -7,3 +7,12 @@ E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\bin\Debug
 E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\obj\Debug\ResolveAssemblyReference.cache
 E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\obj\Debug\VMS.Client.Facade.dll
 E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\obj\Debug\VMS.Client.Facade.pdb
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\bin\Debug\VMS.Client.Facade.dll
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\bin\Debug\VMS.Client.Facade.pdb
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\bin\Debug\log4net.dll
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\bin\Debug\PureMVC.DotNET.35.dll
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\bin\Debug\log4net.xml
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\bin\Debug\PureMVC.DotNET.35.xml
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\obj\Debug\ResolveAssemblyReference.cache
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\obj\Debug\VMS.Client.Facade.dll
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.Facade\obj\Debug\VMS.Client.Facade.pdb

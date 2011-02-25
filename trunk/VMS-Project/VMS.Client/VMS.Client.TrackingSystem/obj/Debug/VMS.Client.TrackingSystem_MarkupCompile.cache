@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.TrackingSystem\obj\Debug\
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.TrackingSystem\obj\Debug\
 VMS.Client.TrackingSystem
 none
 false
 DEBUG;TRACE
-E:\doan\rangbabiproject\trunk\VMS-Project\VMS.Client\VMS.Client.TrackingSystem\App.xaml
+D:\Download\rb-vms\trunk\VMS-Project\VMS.Client\VMS.Client.TrackingSystem\App.xaml
 71415688589
 
 171373427394
-212014470725
+21-2063920985
 Views\MainView.xaml;UserControls\ComboboxSearchControl.xaml;UserControls\MySearchExpanderControl.xaml;UserControls\NumericUpDown.xaml;Dictionary\MainResource.xaml;UserControls\CloseMiniMaxi.xaml;UserControls\ButtonFindSearch.xaml;
 
